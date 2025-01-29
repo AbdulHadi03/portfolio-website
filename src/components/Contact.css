@@ -20,6 +20,7 @@
     color: #555;
     line-height: 1.6;
     margin: 10px 0;
+    text-align: center;
 }
 
 .contact-container a {
@@ -29,4 +30,53 @@
 
 .contact-container a:hover {
     text-decoration: underline;
+}
+
+/* Responsive Design */
+
+/* Large Tablets and Small Desktops (1024px and below) */
+@media (max-width: 1024px) {
+    .contact-container {
+        padding: 25px;
+        max-width: 90%;
+    }
+
+    .contact-container h1 {
+        font-size: 1.8rem;
+    }
+
+    .contact-container p {
+        font-size: 1.1rem;
+    }
+}
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+    .contact-container {
+        padding: 20px;
+    }
+
+    .contact-container h1 {
+        font-size: 1.6rem;
+    }
+
+    .contact-container p {
+        font-size: 1rem;
+    }
+}
+
+/* Mobile Devices (480px and below) */
+@media (max-width: 480px) {
+    .contact-container {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .contact-container h1 {
+        font-size: 1.4rem;
+    }
+
+    .contact-container p {
+        font-size: 0.95rem;
+    }
 }
