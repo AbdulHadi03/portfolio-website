@@ -1,0 +1,35 @@
+/* Main component styling */
+.main-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f7f7f7; /* Light gray background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 50px auto;
+    
+
+}
+.main-content{
+    /* margin: 0 auto;
+    
+    padding: 20px; */
+    display: flex;
+    justify-content:space-between
+}
+.content{
+    width: 60%;
+    padding: 20px;
+}
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Arial', sans-serif;
+    color: #333333; /* Dark gray for the heading */
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.25rem;
+    font-family: 'Arial', sans-serif;
+    color: #666666; /* Light gray for the paragraph */
+}
