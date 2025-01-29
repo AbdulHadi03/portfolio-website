@@ -39,6 +39,7 @@ const Projects = () => {
                     <img src={project.imageUrl} alt={project.title} />
                     <h2>{project.title}</h2>
                     <p>{project.description}</p>
+                    <p><a href={project.link? project.link: ""}>{project.title}</a></p>
                     {/* Add more project card elements here */}
                 </div>
             ))}
