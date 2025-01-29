@@ -18,7 +18,7 @@ function Resume() {
             
             <div className="download-container">
                 {/* Button to download the resume */}
-                <a href={resume} download className="resume-button">
+                <a href={resume} download className="resume-button" target="_blank" rel="noopener noreferrer">
                     Download Resume
                 </a>
             </div>
