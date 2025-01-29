@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
 import Main from './components/Main';
