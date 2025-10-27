@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
+import resumePdf from '/src/Resume_Mohammed_AbdulHadi.pdf'
 
 const Hero = () => {
   const socialLinks = [
@@ -36,8 +37,8 @@ const Hero = () => {
               Get In Touch
             </button>
             <a
-              href="/Resume_Mohammed_AbdulHadi.pdf"
-              download
+              href={resumePdf}
+              download="Mohammed_AbdulHadi_Resume.pdf"
               className="px-8 py-3 border-2 border-primary-600 text-primary-400 hover:bg-primary-600 hover:text-white rounded-lg font-semibold transition-all transform hover:scale-105"
             >
               Download Resume
