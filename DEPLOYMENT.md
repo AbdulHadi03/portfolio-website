@@ -37,13 +37,7 @@ netlify deploy --prod
 ## Step 3: Configure Environment Variables
 
 1. In Netlify Dashboard, go to **Site settings** → **Environment variables**
-2. Add these three variables:
-
-```
-VITE_EMAILJS_SERVICE_ID = service_oz7egj4
-VITE_EMAILJS_TEMPLATE_ID = template_jstls6h
-VITE_EMAILJS_PUBLIC_KEY = bTbUuZhsUoEGQNiEb
-```
+2. Add the env variables
 
 3. Click **Save**
 
